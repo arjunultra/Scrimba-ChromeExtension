@@ -3,10 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
+}
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
 }
 input#input-el {
   width: 100%;
-  border: 2px solid;
+  border: 2px solid #5f9341;
+  height: 50px;
+}
+button#save-btn {
+  padding: 15px 30px;
+  margin-top: 0.5em;
+  background-color: #5f9341;
+  border: none;
+  color: #ffffff;
 }
