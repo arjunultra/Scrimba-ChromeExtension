@@ -17,7 +17,8 @@ input#input-el {
   border: 2px solid #5f9341;
   height: 50px;
 }
-button#save-btn {
+button,
+button#input-btn {
   padding: 15px 30px;
   margin-top: 0.5em;
   background-color: #5f9341;
